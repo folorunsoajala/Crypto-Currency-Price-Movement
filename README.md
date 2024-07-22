@@ -68,6 +68,11 @@ Binance Coin (BNB) peaked at $622.34 on April 12, 2024, with a total market cap 
 #### Solana (SOL)
 Solana (SOL) reached an all-time high of $196.52 on April 1, 2024, with a current price of $162.99, a total market cap of $1.41 trillion, and a circulating supply of 8.53 billion SOL. Solana's rapid ascent in the cryptocurrency market is driven by its high throughput and low transaction costs. The ATH showcases its competitive strength in the blockchain space, and its substantial market cap indicates its significant presence and potential for future growth.
 
+Dashboard                   |     BTC 
+:-------------------------: | :----------------------------------:
+![](report_1.JPG)           |  ![](report_2.JPG)
+
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiZjJkMmI2NWYtNmExYy00ODZhLWJiNDUtOWFhNjM2M2UyYWM2IiwidCI6IjQzOGFiNWNlLTljODEtNDI0Ni05Yjk4LTI5ZmY3YWQ3ZDBhOSJ9) 
 
 
 

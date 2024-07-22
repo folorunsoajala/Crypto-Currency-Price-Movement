@@ -29,5 +29,23 @@ Understanding the various factors that affect cryptocurrency price movements is 
 # Data Source and Preparation
 The dataset used in this analysis was sourced from [CoinDex](https://coincodex.com/), a website that provides extensive historical data on cryptocurrencies spanning many years. The data was scraped using Power Query in Microsoft Excel, where basic sorting was performed before importing it into Microsoft SQL Server for further data cleaning and processing. The dataset consists of three tables: two-dimension tables and one fact table.
 
+![](dataset_source.JPG) 
+
+# Data Transformation
+The data cleaning process follows a structured approach using a medallion architecture, consisting of three schemas: staging, dev, and prod. This multi-layered approach ensures thorough data transformation and preparation.
+1. **Staging Schema**: Data ingestion begins in the staging schema, where raw data is initially loaded.
+2. **Dev Schema**: The data is then migrated to the dev schema for comprehensive data transformation. Key transformations include:
+   - **Price Column**: Removing the "$" and "?" symbols.
+   - **Percentage Columns**: Converting 24h, 7d, 1m, and 3m columns to four decimal points.
+   - **Market Cap Column**: Removing "$" and "?" symbols, and converting values to millions, billions, or trillions.
+   - **24h Volume Column**: Removing "$" and "?" symbols, and converting values to millions, billions, or trillions.
+   - **Circulating Supply Column**: Converting values to millions, billions, or trillions.
+3. **Dimension Tables**: Transformations include concatenating columns in the date table to create a single date column, which is then used to extract various date attributes such as year, month, and week.
+After the necessary transformations in the dev schema, the cleaned data is migrated to the prod schema for reporting purposes. This methodical approach ensures the data is well-prepared and accurate for analysis.
+
+Fact Transformation         |     Dimension Transformation 
+:-------------------------: | :----------------------------------:
+![](tranformation_1.JPG)    |  ![](transformation_2.JPG)
+
 
 

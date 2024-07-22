@@ -20,5 +20,14 @@ Understanding the various factors that affect cryptocurrency price movements is 
 4.	Technological Developments: Advances in blockchain technology, such as scalability improvements and new security features, can enhance the functionality and attractiveness of cryptocurrencies, influencing their market value.
 5.	Government Policies: Government actions, including the introduction of central bank digital currencies (CBDCs) and specific regulations on cryptocurrency usage, can have profound effects on market dynamics.
 
+# Tools used 
+- Microsoft excels
+- Microsoft SQL server
+- Microsoft power bi desktop (for report development)
+- Microsoft fabric for efficiently manage report and real time analysis
+
+# Data Source and Preparation
+The dataset used in this analysis was sourced from [CoinDex](https://coincodex.com/), a website that provides extensive historical data on cryptocurrencies spanning many years. The data was scraped using Power Query in Microsoft Excel, where basic sorting was performed before importing it into Microsoft SQL Server for further data cleaning and processing. The dataset consists of three tables: two-dimension tables and one fact table.
+
 
 

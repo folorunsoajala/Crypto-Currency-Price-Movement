@@ -47,5 +47,28 @@ Fact Transformation         |     Dimension Transformation
 :-------------------------: | :----------------------------------:
 ![](tranformation_1.JPG)    |  ![](transformation_2.JPG)
 
+# Data Modelling
+I designed the star schema model to connect all facts and dimensions seamlessly. By utilizing the import storage mode, I imported the data into Power BI and established relationships between the tables. Most relationships are characterized by one-to-many cardinality with a single filter direction, ensuring efficient data flow and accurate analysis, as illustrated in the screenshot below.
+
+Star Schema                 |     Cardinality
+:-------------------------: | :----------------------------------:
+![](model_1.JPG)            |  ![](model_2.JPG)
+
+# Analysis and Visualization
+
+#### Bitcoin (BTC)
+Bitcoin (BTC) reached an all-time high (ATH) of $72,346 on April 8, 2024, with a total market cap of $25.04 trillion and a circulating supply of 274.28 million BTC. As the pioneer cryptocurrency, Bitcoin continues to dominate the market, with its ATH marking a significant milestone that reflects strong investor confidence and market demand. The substantial market cap underscores Bitcoin's role as a primary store of value and investment asset in the crypto space.
+
+#### Ethereum (ETH)
+Ethereum (ETH) achieved an all-time high of $3,865.71 on May 28, 2024, with a total market cap of $7.91 trillion and a circulating supply of 2.28 billion ETH. This milestone highlights Ethereum's crucial role in the cryptocurrency ecosystem, particularly due to its smart contract capabilities and its pivotal role in decentralized finance (DeFi) and non-fungible tokens (NFTs). The $7.91 trillion market cap reflects Ethereum's extensive use cases and its adoption beyond merely being a digital currency.
+
+#### Binance Coin (BNB)
+Binance Coin (BNB) peaked at $622.34 on April 12, 2024, with a total market cap of $1.66 trillion and a circulating supply of 2.80 billion BNB. This peak signifies BNB's significant position within the Binance ecosystem, providing utility in transaction fees, DeFi, and as a form of payment. The $1.66 trillion market cap indicates substantial growth and acceptance within the crypto community.
+
+#### Solana (SOL)
+Solana (SOL) reached an all-time high of $196.52 on April 1, 2024, with a current price of $162.99, a total market cap of $1.41 trillion, and a circulating supply of 8.53 billion SOL. Solana's rapid ascent in the cryptocurrency market is driven by its high throughput and low transaction costs. The ATH showcases its competitive strength in the blockchain space, and its substantial market cap indicates its significant presence and potential for future growth.
+
+
+
 
 
